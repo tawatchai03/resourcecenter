@@ -7,7 +7,8 @@
             <span class="close-button">&times;</span>
         </div>
         <div id="pages1">
-            <h1>Resource Center</h1>
+            <h1 style="padding-left: 18%;">Resource Center</h1>
+            <i class='fas fa-angle-right'></i>
             <hr>
             <div>
                 <div class="btt__label pue-button" onclick="getSearch()">
@@ -38,36 +39,17 @@
         </div>
 
         <div id="pages2">
-            <div class="hr-border">
+            <div style="font-size: 25px;
+            font-weight: bold;">
                 <span onclick="getBacks()"><</span>
             </div>
-            <h1>Help Center</h1>
+            <h1 style="padding-left: 25%; margin-top: -6px;">Help Center</h1>
             <hr>
             <div>
-                <div class="btt__label pue-button" onclick="getSearch()">
-                    <div>
-                        <h3 style="line-height: 0em;">Help Center</h3>
-                        Search for articles
-                    </div>
-                    <span>></span>
-                </div>
-                <hr>
-                <div class="btt__label pue-button">
-                    <div>
-                        <h3 style="line-height: 0em;">Onboarding</h3>
-                        Onboarding guides
-                    </div>
-                    <span>></span>
-                </div>
-                <hr>
-                <div class="btt__label pue-button">
-                    <div>
-                        <h3 style="line-height: 0em;">Announcements</h3>
-                        What's new?
-                    </div>
-                    <span>></span>
-                </div>
-                <hr>
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
             </div>
         </div>
         <div id="pages3">
